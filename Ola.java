@@ -5,5 +5,17 @@ public class Ola{
     public static void main(String[] args) {
         System.out.println("Olá Mundo!");
         System.out.println(soma(3, 5));
+
+        boolean bol = false;
+        char ch = 'a';
+        byte intB = 2;
+        short intS = 200;
+        int intN = 1000;
+        long intL = 2000;
+        float fNUm = 2.5f;
+        double dNum = 2.5; 
+
+        System.out.println(Short.MIN_VALUE);
+        System.out.println(Short.MAX_VALUE);
     }
 }
